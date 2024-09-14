@@ -4,15 +4,19 @@
 1 kilogram = 2.204 pound
 */
 // definition interraction utilisateur
-const numbersIpt = document.getElementById("numbers-ipt")
+let numbersIpt = document.getElementById("numbers-ipt")
 const btn = document.getElementById("btn")
 const meter = 0.3048
 const feet = 3.281
 const gallon = 0.264
 const liter = 3.7854
-const pound = 2.204
+const pound = 0.264
 const kilo = 0.4536
+const numbersValue = JSON.parse(localStorage.getItem("value"))
 // evenement du bouton
+if(numbersValue){
+         numbersIpt.value = numbersValue
+    }
 btn.addEventListener( "click" , function (){
     if (numbersIpt.value <=0 || isNaN(numbersIpt.value)) {
     alert("Veuillez entrer une longueur valide.");
@@ -21,6 +25,7 @@ btn.addEventListener( "click" , function (){
     convMeterToFeet()
     convLiterToGallon()
     convKiloToPound()
+    localStorage.setItem("value", JSON.stringify(numbersIpt.value))
 })
 
 // fonction de conversion
