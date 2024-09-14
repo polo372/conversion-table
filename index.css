@@ -1,0 +1,61 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+}
+@supports (font-variation-settings: normal) {
+  :root { font-family: InterVariable, sans-serif; }
+}
+body {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    font-family:  Inter, sans-serif;
+}
+#container{
+    background-color: #6943FF;
+    height: 285px;
+}
+h1 {
+    padding-top: 20px;
+    font-size: 28px;
+}
+#numbers-ipt{
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    height: 83px;
+    width: 117px;
+    font-size: 53px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+#btn{
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    height: 42px;
+    width: 117px;
+    border-radius: 5px;
+    font-size: medium;
+    color: #3D3D3D;
+}
+
+#conversion-container{
+    background-color: #F4F4F4;
+    color: #5A537B;
+    border: 10px solid #F4F4F4;
+    
+}
+.class-container{
+    background-color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 20px;
+}
+.paragraph-conversion{
+    color: #353535;
+    font-size: 14px;
+}
