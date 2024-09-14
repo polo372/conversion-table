@@ -65,7 +65,9 @@ h1 {
     color: #CCC1FF;
     border: 10px solid #1F2937;
     }  
-
+.class-container{
+    background-color: #273549;
+}
 .paragraph-conversion {
     color: #FFFFFF;
     }
