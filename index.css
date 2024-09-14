@@ -61,7 +61,7 @@ h1 {
 }
 @media (prefers-color-scheme: dark) {
     #conversion-container {
-    background-color: #273549;
+    background-color: #1F2937;
     color: #CCC1FF;
     border: 10px solid #1F2937;
     }  
