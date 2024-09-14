@@ -59,3 +59,14 @@ h1 {
     color: #353535;
     font-size: 14px;
 }
+@media (prefers-color-scheme: dark) {
+    #conversion-container {
+    background-color: #273549;
+    color: #CCC1FF;
+    border: 10px solid #1F2937;
+    }  
+
+.paragraph-conversion {
+    color: #FFFFFF;
+    }
+}
